@@ -17,3 +17,30 @@
 # for h in range(len(nums)):
 #     print(int(nums[h])*'\u2665')
 
+# t1="Python is a programming language"
+# t2="and integrate systems more effectively"
+# t1.lower()
+# print(t1[:7]+t2.split()[-1]+t1[-9:])
+# print("I"+"am")
+
+#4
+# text=input("입력:")
+# temp=''
+# for ch in text:
+#     if ch=='s':
+#         ch="$"
+#     else:
+#         pass
+#     temp+=ch
+# print(temp)
+
+#5
+# date=input("날짜(연/월/일) 입력 : ")
+# dateList=date.split('/')
+# year=int(dateList[0])+10
+# month=dateList[1]
+# day=dateList[2]
+# print(f'10년 뒤: {year}년 {month}월 {day}일')
+
+
+
