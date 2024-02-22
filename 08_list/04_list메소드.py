@@ -43,24 +43,24 @@
 # 5. index() : 리스트에서 지정한 값의 위치를 반환
 # 해당 값이 여러개더라도 제일 처음 찾은 인덱스 반환
 #찾고자 하는 값이 없으면 ValueError 발생
-c=['홍길동','강감찬','성춘향','변학도','강감찬']
-idx=c.index('강감찬')
-print(f'clist index 적용:{idx}')
-
-# # 6. insert(위치,값) : 리스트에 값(요소) 삽입
-print(f'clist insert 전: {c}')
-c.insert(-1,"이몽룡")
-print(f'clist insert: {c}')
+# c=['홍길동','강감찬','성춘향','변학도','강감찬']
+# idx=c.index('강감찬')
+# print(f'clist index 적용:{idx}')
+#
+# # # 6. insert(위치,값) : 리스트에 값(요소) 삽입
+# print(f'clist insert 전: {c}')
+# c.insert(-1,"이몽룡")
+# print(f'clist insert: {c}')
 
 # 7. remove(값) : 리스트에서 지정한 값을 제거
 # 값이 여러 개 존재할 때 remove는 첫번째 값만 지움
 # 여러 개 지우고 싶으면 for 문 이용
 # 8. count(값) : 리스트에서 지정한 값의 개수 반환
-print(f'clist: {c}')
-for item in range(c.count('강감찬')):
-    c.remove('강감찬')
-    #print(f'강감찬 삭제 {c}')
-print(f'clist remove : {c}')
+# print(f'clist: {c}')
+# for item in range(c.count('강감찬')):
+#     c.remove('강감찬')
+#     #print(f'강감찬 삭제 {c}')
+# print(f'clist remove : {c}')
 
 # 9. extend() : 리스트에 리스트를 추가(확장)=>하나의 리스트로 변경
 # b=[6,3,5,1,-3]
@@ -93,7 +93,7 @@ print(f'clist remove : {c}')
 # cpy_a=a.copy()
 # print(cpy_a)
 # cpy_a.sort()
-# print(cpy_a)
+# print(cpy_a) #원본변형
 
 # 12. clear() : 리스트를 비우기 (빈 리스트로)
 # cpy_a.clear()   # cpy_a[:]=[] 동일한 기능

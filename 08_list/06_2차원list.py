@@ -1,6 +1,6 @@
 # 2차원 리스트 : [행][열]
 
-# table=[[1,2,3,4],[7,8,9,10],[10,11,12,14]]
+table=[[1,2,3,4],[7,8,9,10],[10,11,12,14]]
 # print(table)
 # print(len(table))
 # print(table[0][1])
@@ -10,7 +10,7 @@
 #
 # for row in table:
 #     for col in row:
-#         print(col,end=" ")
+#         print(col,end=' ')
 #     print()
 #--------------
 # 행/열 동일하면 사용가능

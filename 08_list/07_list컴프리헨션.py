@@ -45,7 +45,7 @@ foods=['떡볶이','짜장면','라면','피자']
 sides=['단무지','김치','피클']
 
 #for food, side in zip(sides, foods,strict=True):
-#이렇게 하면 오류남. foods,sides 순서 바꾸면
+#이렇게 하면 오류남. foods,sides 순서 바꾸면 개수 불일치하다고
 
 for food, side in zip(foods,sides):
     print(food,'--',side)
@@ -55,10 +55,10 @@ for item in zip(foods, sides):
 print(type(zip(foods,sides)),zip(foods,sides))
 print(list(zip(foods,sides)))
 
-# name=['홍길동','강감찬','성춘향','방자']
-# sex=['남','남','여','남']
-# addr=['서울','한양','독도','부산']
-# print(list(zip(name,sex,addr)))
+name=['홍길동','강감찬','성춘향','방자']
+sex=['남','남','여','남']
+addr=['서울','한양','독도','부산']
+print(list(zip(name,sex,addr)))
 #위의 한줄을 세줄로
 # ob=zip(name,sex,addr)
 #ob_list=list(ob)
