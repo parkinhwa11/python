@@ -149,6 +149,6 @@ star='*'
 #     temp+=ch
 # print(temp)
 
-num=input("숫자를 여러개 입력하세요.")
-for i in range(len(num)):
-    print(int(num[i])*'\u2665')
+# num=input("숫자를 여러개 입력하세요.")
+# for i in range(len(num)):
+#     print(int(num[i])*'\u2665')

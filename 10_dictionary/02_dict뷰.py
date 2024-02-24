@@ -29,6 +29,6 @@ print(list(items))
 for item in d.items():
     print(item,type(item))
 # 언패킹처럼
-for key,item in d.items():
-    print(key,item)
+for key,value in d.items():
+    print(key,value)
 

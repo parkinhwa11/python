@@ -8,11 +8,11 @@
 # ]
 #
 # total=0
-# print('이름\t총점\t평균')
+# print('이름\t총점\t평균') print('{0:6s}P1:6s}{2}'.format('이름','총점','평균'))
 # for student in students:
 #     total=student['korean']+student['math']+student['english']+student['science']
 #     avg=total/4
-#     print(f'{student['name']}\t{total}\t{avg}')
+#     print(f'{student['name']:6s}{total:<7d}{avg}')
 
 dict={}
 while True:

@@ -28,7 +28,7 @@ d['six']=6
 d['ten']=10
 print(d)
 
-result=d.pop('two') # 최소 하나 이상 인수(argument) 필요
+result=d.pop('two') #인수(argument) 필요
 print(result)
 print(d)
 #d.pop('seven')
@@ -59,4 +59,5 @@ print(d,id(d)) # 메모리 동일
 print(d2,id(d2))
 d2={} # 새로운 딕셔너리 생성
 print(d2,id(d2)) # 다른 메모리 가리킴
+
 

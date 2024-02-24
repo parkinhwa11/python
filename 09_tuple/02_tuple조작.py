@@ -2,7 +2,8 @@
 
 # 1. 인덱싱
 t=1,2,3,4,5,6,7,8
-print(t[0])
+print(t)
+print(t[0],type(t[0]))
 
 # 2. 슬라이싱
 print(t[:])

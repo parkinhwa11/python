@@ -8,8 +8,8 @@ print(s)
 s.add(100)
 print(s)
 
-# update() 메서드
-s.update([5,6])
+# update() 메서드 () [] {}
+s.update((5,6))
 print(s)
 
 # 2. 데이터 삭제, 추출
@@ -58,6 +58,9 @@ print(s1.difference(s2)) # s1에만 있는 것
 print(s2.difference(s1)) # s2에만 있는 것
 print(s1-s2)
 print(s2-s1)
+
+s3=s1.copy()
+print(s3)
 
 
 

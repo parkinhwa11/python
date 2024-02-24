@@ -24,9 +24,9 @@ show_info()
 # show_info1()
 
 # 문제. 두 정수를 입력받아 더하는 함수 add() 정의하기
-def add(num1,num2):
-    print(f'{num1}+{num2}={num1+num2}')
-add(1,2)
+# def add(num1,num2):
+#     print(f'{num1}+{num2}={num1+num2}')
+# add(1,2)
 
 # 방법2.
 # def add():
