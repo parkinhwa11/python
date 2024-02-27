@@ -55,7 +55,7 @@ print(add(y=100,x=10)) # 키워드 인수
 
 print((lambda x : x+10)(2))
 
-#(lambda x : y=10; x=y)(10)
+#(lambda x : y=10; x+y)(10)
 # syntax error 람다 함수 내에서 변수 생성 불가
 
 y=10
