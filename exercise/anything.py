@@ -415,10 +415,17 @@
 #         print("틀렸습니다...다시도전 !")
 #         print()
 
-def hello():
-    print("Hi")
+n=['HongGildong','Dr.strange','Groot']
+for i in enumerate(n):
+    print(i)
 
-hello()
+
+
+
+
+
+
+
 
 
 

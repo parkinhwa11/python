@@ -32,7 +32,7 @@ f.close()
 filename='data/readwrite.txt'
 f1=open(filename,'a',encoding='utf-8')
 for i in range(5):
-    f1.write(f'{i+1}행: ' + input(f"{i}번째 문자열 입력: "))
+    f1.write(f'{i+1}행: ' + input(f"{i}번째 문자열 입력: \n"))
 
 f1.close()
 
